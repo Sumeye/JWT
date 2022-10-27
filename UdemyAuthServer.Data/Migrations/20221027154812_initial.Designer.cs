@@ -12,7 +12,7 @@ using UdemyAuthServer.Data;
 namespace UdemyAuthServer.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20221027125400_initial")]
+    [Migration("20221027154812_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

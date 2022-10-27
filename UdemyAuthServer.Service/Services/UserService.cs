@@ -26,6 +26,7 @@ namespace UdemyAuthServer.Service.Services
             {
                 Email = createUserDto.Email,
                 UserName = createUserDto.UserName,
+                City=createUserDto.City
             };
             var result = await _userManager.CreateAsync(user, createUserDto.Password);
             if (!result.Succeeded)
