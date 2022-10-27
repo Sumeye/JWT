@@ -13,7 +13,7 @@ namespace UdemyAuthServer.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<UserApp> builder)
         {
-            throw new NotImplementedException();
+            builder.Property(x => x.City).HasMaxLength(50);
         }
     }
 }

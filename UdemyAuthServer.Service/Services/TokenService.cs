@@ -12,7 +12,7 @@ using UdemyAuthServer.Core.Services;
 
 namespace UdemyAuthServer.Service.Services
 {
-    internal class TokenService : ITokenService
+    public class TokenService : ITokenService
     {
         private readonly UserManager<UserApp> _userManager;
         private readonly CustomTokenOption _tokenOption;
